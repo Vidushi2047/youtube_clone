@@ -44,13 +44,13 @@ class AppRoutes {
                       return const MaterialPage(child: HomeScreen());
                     },
                     routes: [
-                      GoRoute(
-                          parentNavigatorKey: _navigatorkey,
-                          path: 'videoScreen',
-                          name: RouteNames.videoScreen,
-                          builder: (context, state) {
-                            return const VideoScreen();
-                          })
+                      // GoRoute(
+                      //     parentNavigatorKey: _navigatorkey,
+                      //     path: 'videoScreen',
+                      //     name: RouteNames.videoScreen,
+                      //     builder: (context, state) {
+                      //       return const VideoScreen();
+                      //     })
                     ]),
               ]),
               StatefulShellBranch(navigatorKey: _shortsNavigatorKey, routes: [
@@ -59,7 +59,9 @@ class AppRoutes {
                     path: '/shorts',
                     name: RouteNames.shorts,
                     builder: (context, state) {
-                      return const ShortScreen();
+                      return ShortScreen(
+                        index: 0,
+                      );
                     })
               ]),
               StatefulShellBranch(navigatorKey: _addNavigatorKey, routes: [

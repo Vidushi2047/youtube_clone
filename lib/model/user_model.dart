@@ -46,12 +46,13 @@ final List<Video> videos = [
     id: 'x606y4QWrxo',
     author: currentUser,
     title: 'Flutter Clubhouse Clone UI Tutorial | Apps From Scratch',
-    thumbnailUrl: 'https://wallpapercave.com/wp/wp6808172.jpg',
+    thumbnailUrl:
+        'https://tse2.mm.bing.net/th?id=OIP.RTSpv7BOzC9ofRYVhzMyXQHaE7&pid=Api&P=0&h=180',
     duration: '8:20',
     timestamp: DateTime(2021, 3, 20),
     viewCount: '10K',
-    likes: '958',
-    dislikes: '4',
+    likes: '1k',
+    dislikes: '45',
   ),
   Video(
     author: currentUser,
@@ -59,19 +60,19 @@ final List<Video> videos = [
     title:
         'Build Flutter Apps Fast with Riverpod, Firebase, Hooks, and Freezed Architecture',
     thumbnailUrl:
-        'http://www.gscmovies.com.my/wp-content/uploads/2015/07/Doraemon.jpg',
+        'https://tse2.mm.bing.net/th?id=OIP.wzlLPKvuy7CxZZkMzrS20AHaEK&pid=Api&P=0&h=180',
     duration: '22:06',
     timestamp: DateTime(2021, 2, 26),
     viewCount: '8K',
-    likes: '485',
-    dislikes: '8',
+    likes: '67k',
+    dislikes: '8k',
   ),
   Video(
     id: 'ilX5hnH8XoI',
     author: currentUser,
     title: 'Chhota Bheem | Cartoons for Kids | Funny Kids Video',
     thumbnailUrl:
-        'https://2.bp.blogspot.com/-9b63vx8FG-c/XNDBIJd2T9I/AAAAAAAAJt8/WNWdRPvdWi0PlwMH9j8HLl80nBb2W38gwCLcBGAs/s1600/81m5g2bjfxL._RI_.jpg',
+        'https://tse2.mm.bing.net/th?id=OIP.5SWZeiNjE4AH00ZZneylxAHaEK&pid=Api&P=0&h=180',
     duration: '10:53',
     timestamp: DateTime(2020, 7, 12),
     viewCount: '18K',
@@ -83,24 +84,24 @@ final List<Video> videos = [
     author: currentUser,
     title: 'Chhota Bheem | Cartoons for Kids | Funny Kids Video',
     thumbnailUrl:
-        'http://4.bp.blogspot.com/-I6WSUuhOeZs/VCGr-iyObMI/AAAAAAAASQw/iQPTEiRbX-k/s1600/Pogo%2BCartoon%2BChota%2BBheem%2BFree%2BWallpapers2.jpg',
-    duration: '8:20',
+        'https://tse3.mm.bing.net/th?id=OIP.xe2v890qktiiISdj4IbD1gHaEK&pid=Api&P=0&h=180',
+    duration: '3:20',
     timestamp: DateTime(2021, 3, 20),
-    viewCount: '10K',
-    likes: '958',
-    dislikes: '4',
+    viewCount: '100K',
+    likes: '58k',
+    dislikes: '4k',
   ),
   Video(
     id: 'x606y4QWrxo',
     author: currentUser,
     title: 'Chhota Bheem | Cartoons for Kids | Funny Kids Video',
     thumbnailUrl:
-        'https://everydayowl.com/wp-content/uploads/2021/07/cartoon-network.jpeg',
-    duration: '8:20',
+        'https://tse4.mm.bing.net/th?id=OIP.CjP2BjU1WsvxbFCWsBluJwHaFV&pid=Api&P=0&h=180',
+    duration: '2:20',
     timestamp: DateTime(2021, 3, 20),
-    viewCount: '10K',
-    likes: '958',
-    dislikes: '4',
+    viewCount: '456K',
+    likes: '98k',
+    dislikes: '34k',
   ),
   Video(
     id: 'x606y4QWrxo',
@@ -108,10 +109,10 @@ final List<Video> videos = [
     title: 'Chhota Bheem | Cartoons for Kids | Funny Kids Video',
     thumbnailUrl:
         'https://tse1.explicit.bing.net/th?id=OIP.hV56BStUlqvaNDFoDwo5kAHaFj&pid=Api&P=0&h=180',
-    duration: '8:20',
+    duration: '10:20',
     timestamp: DateTime(2021, 3, 20),
-    viewCount: '10K',
-    likes: '958',
+    viewCount: '10M',
+    likes: '2M',
     dislikes: '4',
   ),
   Video(
@@ -122,8 +123,8 @@ final List<Video> videos = [
         'https://www.newszii.com/wp-content/uploads/2016/09/Science-Fiction-Movies_v29.jpg',
     duration: '8:20',
     timestamp: DateTime(2021, 3, 20),
-    viewCount: '10K',
-    likes: '958',
+    viewCount: '100K',
+    likes: '95K',
     dislikes: '4',
   ),
   Video(
@@ -132,10 +133,10 @@ final List<Video> videos = [
     title: 'Chhota Bheem | Cartoons for Kids | Funny Kids Video',
     thumbnailUrl:
         'https://www.newszii.com/wp-content/uploads/2016/09/Science-Fiction-Movies_v24.jpg',
-    duration: '8:20',
+    duration: '6:20',
     timestamp: DateTime(2021, 3, 20),
-    viewCount: '10K',
-    likes: '958',
+    viewCount: '5K',
+    likes: '58',
     dislikes: '4',
   ),
 ];
@@ -148,8 +149,8 @@ final List<Video> suggestedVideos = [
     thumbnailUrl: 'https://i.ytimg.com/vi/rJKN_880b-M/0.jpg',
     duration: '1:13:15',
     timestamp: DateTime(2020, 8, 22),
-    viewCount: '32K',
-    likes: '1.9k',
+    viewCount: '312K',
+    likes: '8.9k',
     dislikes: '7',
   ),
   Video(
@@ -159,7 +160,7 @@ final List<Video> suggestedVideos = [
     thumbnailUrl: 'https://i.ytimg.com/vi/HvLb5gdUfDE/0.jpg',
     duration: '1:52:12',
     timestamp: DateTime(2020, 8, 7),
-    viewCount: '190K',
+    viewCount: '290K',
     likes: '9.3K',
     dislikes: '45',
   ),
@@ -170,12 +171,22 @@ final List<Video> suggestedVideos = [
     thumbnailUrl: 'https://i.ytimg.com/vi/h-igXZCCrrc/0.jpg',
     duration: '1:03:58',
     timestamp: DateTime(2019, 10, 17),
-    viewCount: '358K',
-    likes: '20k',
-    dislikes: '85',
+    viewCount: '1.5M',
+    likes: '200k',
+    dislikes: '8',
   ),
 ];
 
-List videoLink = [];
+final List<String> ids = [
+  'nPt8bK2gbaU',
+  'gQDByCdjUXw',
+  'iLnmTe5Q2Qw',
+  '_WoCV4c6XOE',
+  'KmzdUe0RSJo',
+  '6jZDSSZZxjQ',
+  'p2lYr3vM_1w',
+  '7QUtEmBT_-w',
+  '34_PXCzGw1M',
+];
 // 
  
